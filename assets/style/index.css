@@ -75,7 +75,50 @@ h1 {
 
 .storage {
   background-color: var(--app-storage);
-  height: 500px;
-  width: 60%;
+  margin-top: 10px;
+  height: 520px;
+  width: 1000px;
   border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(5, 190px);
+  grid-template-rows: repeat(4, 115px);
+  gap: 15px;
+  padding: 5px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Selector Styles
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.circle {
+  margin-left: 10px;
+  margin-top: 5px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.square {
+  margin: 5px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.blue {
+  background-color: var(--app-shape-blue);
+}
+
+.green {
+  background-color: var(--app-shape-green);
+}
+
+.orange {
+  background-color: var(--app-shape-orange);
+}
+
+.pink {
+  background-color: var(--app-shape-pink);
+}
+
+.purple {
+  background-color: var(--app-shape-purple);
 }
