@@ -1,0 +1,27 @@
+@import url('./reset.css');
+
+body {
+  background-color: var(--app-background-color);
+}
+
+.container {
+  margin-inline: auto;
+  width: min(100% - 30px, 1080px);
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/* Variables
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+:root {
+  --app-background-color: #181b2d;
+  --section-bg-color: rgba(50, 67, 75, 0.5);
+  --app-white: #fff;
+  --app-blue: #3c57ff;
+  --app-blue-hover: #364ee6;
+  --app-shape-blue: #33f;
+  --app-shape-green: #0f9;
+  --app-shape-orange: #f90;
+  --app-shape-pink: #f09;
+  --app-shape-purple: #90f;
+}
