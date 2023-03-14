@@ -1,7 +1,7 @@
 @import url('./reset.css');
 
 body {
-  background-color: var(--app-background-color);
+  background-color: var(--app-background);
 }
 
 .container {
@@ -14,8 +14,8 @@ body {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 :root {
-  --app-background-color: #181b2d;
-  --section-bg-color: rgba(50, 67, 75, 0.5);
+  --app-background: #181b2d;
+  --app-storage: rgba(50, 67, 75, 0.5);
   --app-white: #fff;
   --app-blue: #3c57ff;
   --app-blue-hover: #364ee6;
@@ -24,4 +24,58 @@ body {
   --app-shape-orange: #f90;
   --app-shape-pink: #f09;
   --app-shape-purple: #90f;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*  Main
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.title {
+  display: grid;
+  place-items: center;
+  padding-top: 180px;
+}
+
+h1 {
+  color: var(--app-white);
+  font-size: 40px;
+  letter-spacing: 0.4px;
+}
+
+.select-box {
+  margin-left: 38%;
+}
+
+.color, .shape {
+  background-color: var(--app-storage);
+  color: var(--app-white);
+  height: 40px;
+  width: 150px;
+  margin: 15px 10px;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  border-radius: 5px;
+}
+
+.create {
+  background-color: var(--app-blue);
+  color: var(--app-white);
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 0.4px;
+  border-radius: 5px;
+}
+
+.create:hover {
+  background-color: var(--app-blue-hover);
+}
+
+.storage {
+  background-color: var(--app-storage);
+  height: 500px;
+  width: 60%;
+  border-radius: 8px;
 }
