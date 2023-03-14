@@ -33,7 +33,7 @@ body {
 .title {
   display: grid;
   place-items: center;
-  padding-top: 180px;
+  padding-top: 160px;
 }
 
 h1 {
@@ -84,6 +84,14 @@ h1 {
   grid-template-rows: repeat(4, 115px);
   gap: 15px;
   padding: 5px;
+}
+
+.output {
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: var(--app-white);
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
