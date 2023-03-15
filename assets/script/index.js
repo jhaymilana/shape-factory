@@ -48,4 +48,5 @@ createButton.addEventListener('click', function() {
   }
 });
 
+// push() to add objects into array
 let unitArray = [];
